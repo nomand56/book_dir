@@ -17,7 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/ADDBOOKS" element={<AddBooks />} />
           <Route path="/BOOKDIR" element={<BooksList />} />
-          <Route path="/BOOKDIR/:id" element={<Delete />} />
+          <Route path="/BOOKDIR/:id" element={<Delete/>} />
 
         </Routes>
 

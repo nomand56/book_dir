@@ -18,7 +18,7 @@ function BooksList() {
     const handleSubmit = async () => {
         await axios.delete("/BOOKDIR/:id").then((res) => {
             console.log("dell resp", res)
-        })
+        })  
     }
 
     if (!books) {

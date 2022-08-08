@@ -4,7 +4,7 @@ const db = require("../../db/connection")
 
 const bookSchema = new mongoose.Schema({
     title: {
-        type: String,
+        type: String,       
         required: true
     },
     category: {

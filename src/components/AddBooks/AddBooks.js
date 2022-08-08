@@ -10,7 +10,6 @@ export default function AddBooks() {
   return (
     <form className="flex flex-col justify-between border-grey-1 height:200px mt-20" onSubmit={handleSubmit((data) => {
       axios.post("/sendBooks", data).then((res) => {
-        console.log(res)
       })
     })}>
 
